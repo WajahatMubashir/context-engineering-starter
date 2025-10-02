@@ -1,0 +1,28 @@
+/*
+Theme Name: MyTheme Enterprise
+Theme URI: https://example.com/
+Author: Your Name
+Description: An enterprise-level WordPress theme scaffold.
+Version: 1.0.0
+Text Domain: mytheme
+*/
+
+.site-header {
+  background: #fff;
+}
+
+.site-header__nav {
+  display: flex;
+  gap: 20px;
+}
+
+/* File: examples/theme-sample/style.css  (add minimal BEM styles for patterns) */
+
+.mytheme-hero { background: #fff; }
+.mytheme-hero__title { margin-bottom: 8px; }
+.mytheme-hero__subtitle { margin-bottom: 24px; opacity: 0.9; }
+.mytheme-hero__cta .wp-element-button { padding: 12px 20px; }
+
+.mytheme-cta { background: #f7f7f8; border-radius: 8px; }
+.mytheme-cta__title { margin-bottom: 16px; }
+.mytheme-cta__button .wp-element-button { padding: 10px 18px; }
